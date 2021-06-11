@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import useReactCountdown from "./hooks/use-react-countdown";
 
 function App() {
+  // Date in format (Month DD, YYYY hh:mm:ss)
+  const { days, hours, minutes, seconds } = useReactCountdown(
+    "July 22, 2021 00:00:00"
+  );
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>My npm packages</h1>
+      <button>
+        Time: {days} {hours} {minutes} {seconds}
+      </button>
     </div>
   );
 }
