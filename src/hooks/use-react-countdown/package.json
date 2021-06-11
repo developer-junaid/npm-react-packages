@@ -1,6 +1,6 @@
 {
   "name": "use-react-countdown",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple hook, that will return days, hours, minutes and seconds (changing), accepting a date as an input",
   "main": "index.js",
   "scripts": {

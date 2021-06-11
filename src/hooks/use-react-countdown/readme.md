@@ -19,6 +19,8 @@ import React from "react";
 import useReactCountdown from "use-react-countdown";
 
 const render = () => {
+  let dateToEndCountdownAt = "July 22, 2021 00:00:00";
+
   const { days, hours, minutes, seconds } =
     useReactCountdown(dateToEndCountdownAt);
 
