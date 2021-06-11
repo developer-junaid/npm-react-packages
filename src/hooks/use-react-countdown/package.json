@@ -1,0 +1,29 @@
+{
+  "name": "use-react-countdown",
+  "version": "1.0.0",
+  "description": "A simple hook, that will return days, hours, minutes and seconds (changing), accepting a date as an input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer-junaid/npm-react-packages/blob/master/src/hooks/use-react-countdown/index.js"
+  },
+  "keywords": [
+    "use-react-countdown",
+    "countdown",
+    "react-countdown",
+    "countdown-timer",
+    "react",
+    "timer",
+    "hooks",
+    "hook"
+  ],
+  "author": "developer-junaid",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
