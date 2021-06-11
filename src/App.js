@@ -1,5 +1,5 @@
 import React from "react";
-import useReactCountdown from "./hooks/use-react-countdown";
+import { useReactCountdown } from "./hooks/use-react-countdown";
 
 function App() {
   // Date in format (Month DD, YYYY hh:mm:ss)

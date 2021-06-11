@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const useReactCountdown = (date) => {
+export const useReactCountdown = (date) => {
   //COUNTDOWN
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
@@ -50,5 +50,3 @@ const useReactCountdown = (date) => {
     seconds: timerSeconds,
   };
 };
-
-export default useReactCountdown;
