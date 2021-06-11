@@ -8,7 +8,7 @@ function App() {
   );
 
   return (
-    <div className="App">
+    <div>
       <h1>My npm packages</h1>
       <button>
         Time: {days} {hours} {minutes} {seconds}
