@@ -37,7 +37,6 @@ const render = () => {
 
 Note that this is a very basic usage. Check out more usage examples
 [in playground](https://stackblitz.com/edit/use-react-countdown?file=src/App.js "use-react-countdown on stackblitz")
-or [in the demo project](./index.js "use-react-countdown demo project")
 
 ## Documentation
 

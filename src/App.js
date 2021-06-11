@@ -1,5 +1,6 @@
 import React from "react";
-import { useReactCountdown } from "./hooks/use-react-countdown";
+import ReactCountdown from "./components/other/ReactCountdown";
+import { useReactCountdown } from "use-react-countdown";
 
 function App() {
   // Date in format (Month DD, YYYY hh:mm:ss)
@@ -8,12 +9,12 @@ function App() {
   );
 
   return (
-    <div>
-      <h1>My npm packages</h1>
-      <button>
-        Time: {days} {hours} {minutes} {seconds}
-      </button>
-    </div>
+    <ReactCountdown
+      days={days}
+      hours={hours}
+      minutes={minutes}
+      seconds={seconds}
+    />
   );
 }
 
